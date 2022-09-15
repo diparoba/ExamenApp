@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamenApp.NuevoLugarPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Registro de Lugar Turístico"
+                HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name="txtNombre" Placeholder="Nombre del Lugar"/>
+            <Entry x:Name="txtComida" Placeholder="Comida Tradicional"/>
+            <Entry x:Name="txtUbicacion" Placeholder="Ubicación"/>
+            <Entry x:Name="txtNumero" Placeholder="Numero de Contacto"/>
+            <Button x:Name="btnRegistrar" Text="Registrar" Clicked="btnRegistrar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
